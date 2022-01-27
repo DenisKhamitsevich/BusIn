@@ -1,6 +1,5 @@
 body {
-    width: 100%;
-
+    width: auto;
     font-family: Comic_Sans_MS;
     src: url(./assets/fonts/Comic_Sans_MS.ttf);
 
@@ -38,7 +37,7 @@ header {
     opacity: 0.5;
 }
 
-.middle_section {
+.flex_display {
     display: flex;
 
 }
@@ -83,7 +82,7 @@ header {
     border-top:1px solid gray;
 }
 
-.review_time{
+.hello_user{
     font-size: 28px;
     margin:5% 0% 0% 30%;
 }
@@ -105,26 +104,26 @@ header {
     color: orange;
 }
 
-.summary {
+.summary_item {
     border: 1px solid gray;
     font-size: 20px;
     padding: 20px;
     margin:40px 50px 0px 28px;
 }
 
-.summary_companies_h {
+.summary_companies {
     color: orange;
     padding-left: 35%;
     padding-right: 5%;
 }
 
-.summary_faces_h {
+.summary_ppl {
     color: orange;
     padding-left: 20%;
     padding-right: 5%;
 }
 
-.summary_sales_h {
+.summary_deals {
     color: orange;
     padding-left: 40%;
     padding-right: 5%;
@@ -141,7 +140,7 @@ header {
     left: 8px;
 }
 
-.new_company_button {
+.new_item_button {
     background-color: gray;
     color: orange;
     outline: none;
@@ -152,11 +151,11 @@ header {
     margin: 50px;
 }
 
-.new_company_button:hover {
+.new_item_button:hover {
     background-color: black;
 }
 
-.company_table_header {
+.table_item_header {
     display: flex;
     justify-content: space-between;
     padding-left: 30px;
@@ -183,7 +182,7 @@ header {
     display: none;
 }
 
-.new_company_window {
+.new_item_window {
     display: none;
     position: fixed;
     top: 80px;
@@ -195,7 +194,7 @@ header {
     border-radius: 10px;
 }
 
-.new_company_paragraph {
+.new_item_paragraph {
     border-bottom: 1px solid rgba(180, 174, 174, 0.925);
     padding-left: 150px;
     display: flex;
@@ -242,7 +241,7 @@ header {
     opacity: 0.5;
 }
 
-.new_company_input {
+.new_item_input {
     border: 1px solid blue;
     outline: none;
     font-size: 20px;
@@ -252,7 +251,7 @@ header {
     margin: 40px 0px 0px 130px;
 }
 
-#save_new_company_button {
+#save_new_item_button {
     margin: 70px 0px 0px 190px;
 }
 
@@ -264,30 +263,30 @@ header {
     margin: 70px 0px 0px 190px;
 }
 
-.company_item {
+.table_item {
     width: 190px;
     margin-right: 50px;
     overflow: hidden;
     height: 70px;
 }
-.company_table_header:hover{
+.table_item_header:hover{
     background-color: rgb(236, 231, 231);
 
 }
 
-.company_item_phone {
+.table_item_phone {
     width: 190px;
     margin-right: 50px;
     overflow: hidden;
 }
 
-.company_item_address {
+.table_item_address {
     width: 180px;
     margin-right: 50px;
     overflow: hidden;
 }
 
-.company_item_location {
+.table_item_location {
     width: 190px;
     margin-right: 40px;
     overflow: hidden;
@@ -416,24 +415,24 @@ header {
     border-bottom:1px solid gray;
     width:100%;
 }
-.delete_company{
+.delete_item{
     margin-right: 20px;
     height: 35px;
     width: 35px;
     background-color: gray;
     color: orange;
 }
-.delete_company:hover {
+.delete_item:hover {
     background-color: rgba(0, 0, 0, 0.596);
 }
-#company_location{
+#table_item_location_id{
     margin-right: 100px;
 }
 #new_people_paragraph{
     padding-left: 120px;
 }
 #new_deals_paragraph{
-    padding-left: 165px;
+    padding-left: 160px;
 }
 .submit_button{
     background-color: gray;
@@ -458,7 +457,7 @@ header {
     text-align: center;
     overflow: hidden;
 }
-.support{
+.full_width{
     width: 100%;
 }
 .problem_data{
@@ -528,5 +527,6 @@ header {
     font-size: 25px;
     margin:5% 0% 0% 37%;
 }
+
 
 

@@ -9,7 +9,7 @@ header {
 }
 
 body {
-    width: 100%;
+    width: auto;
     font-family: Comic_Sans_MS;
     src: url(./assets/fonts/Comic_Sans_MS.ttf);
     min-width: 1000px;
@@ -66,20 +66,20 @@ a {
     transform: translateY(4px);
 }
 
-.mid_section {
+.about_us {
     background: url(./assets/pictures/bus.jpg) no-repeat;
     background-size: cover;
     font-size: 40px;
     font-weight: bold;
 }
 
-.mid_section_header {
+.about_us_header {
     margin: 0px 850px 0px 50px;
     padding-top: 50px;
     font-style: italic;
 }
 
-.mid_section_paragraph {
+.about_us_paragraph {
     font-size: 35px;
     font-weight: normal;
     font-style: normal;
@@ -94,7 +94,7 @@ a {
     margin-left: 600px;
 }
 
-.middle_display {
+.flex_display {
     display: flex;
 }
 

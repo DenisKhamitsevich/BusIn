@@ -1,5 +1,5 @@
 body {
-    width: 100%;
+    width: auto;
     font-family: Comic_Sans_MS;
     src: url(./assets/fonts/Comic_Sans_MS.ttf);
 }
@@ -27,7 +27,6 @@ header {
     font-size: 20px;
     margin: 30px 0px 0px 800px;
     color: gray;
-    content: '&pound';
 }
 
 .sign_in {
@@ -38,11 +37,11 @@ header {
     color:orange;
 }
 
-.middle_section {
+.flex_display {
     display: flex;
 }
 
-.create_paragraph {
+.create_account_paragraph {
     font-size: 35px;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.651);
