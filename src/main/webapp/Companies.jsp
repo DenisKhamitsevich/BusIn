@@ -66,7 +66,7 @@
 
         </div>
 
-        <form action="addnewcompany-servlet">
+        <form method="post" action="addnewcompany-servlet">
             <input type="text" name="name" placeholder="  Название компании" class="new_item_input" id="new_item_name_input"
                    pattern=".{1,45}" required>
             <input type="text" name="site" placeholder="  Сайт" class="new_item_input" >

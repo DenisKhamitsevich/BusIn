@@ -24,14 +24,14 @@
         <div class="review_paragraph">
             <p>Настройки</p>
         </div>
-        <form action="newname-servlet">
+        <form method="post" action="newname-servlet">
             <input name="email" type="email" value="${email}" class="settings_item" disabled>
             <input type="text" name="name" class="settings_item" value="${name}" required>
             <input type="text" name="surname" class="settings_item" value="${surname}" required>
             <input type="submit" value="Сохранить" class="submit_button" id="save_new_name">
         </form>
         <p class="change_password_paragraph">Изменить пароль</p>
-        <form action="newpassword-servlet">
+        <form method="post" action="newpassword-servlet">
             <input type="text" name="new_password" class="settings_item" placeholder="Новый пароль" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,16}" id="new_password" required>
             <div id="invalid_password_message">
                 <p class="password_must_contain" id="invalid_password">Пароль должен содержать:</p>

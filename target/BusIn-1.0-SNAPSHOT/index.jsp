@@ -54,7 +54,7 @@
 </section>
 <section class="support_section" name="support_section_id">
     <h2 class="support_header" id="support_link">Поддержка клиентов</h2>
-    <form class="support_form" action="support-servlet">
+    <form method="post" class="support_form" action="support-servlet">
         <input name="email" type="email" class="email_data" id="email" placeholder="Email" required>
         <textarea name="SupportProblem" cols="30" rows="10" class="problem_data" placeholder="С чем Вам нужна помощь?" required></textarea>
         <input type="submit" value="Отправить" class="submit_button" >

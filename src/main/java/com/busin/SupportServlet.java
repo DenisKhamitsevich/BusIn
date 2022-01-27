@@ -10,7 +10,8 @@ import javax.servlet.annotation.*;
 @WebServlet(name = "supportServlet", value = "/support-servlet")
 public class SupportServlet extends HttpServlet {
 
-    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) {}
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 
         String path = "/SupportPage.html";
 

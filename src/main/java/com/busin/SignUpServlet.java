@@ -14,7 +14,8 @@ import javax.servlet.annotation.*;
 @WebServlet(name = "SighUpServlet", value = "/signup-servlet")
 public class SignUpServlet extends HttpServlet {
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) {}
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         response.setContentType("text/html");
         PrintWriter writer = response.getWriter();

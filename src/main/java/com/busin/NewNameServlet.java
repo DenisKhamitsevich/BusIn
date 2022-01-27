@@ -13,7 +13,8 @@ import javax.servlet.annotation.*;
 @WebServlet(name = "NewNameServlet", value = "/newname-servlet")
 public class NewNameServlet extends HttpServlet {
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) {}
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         response.setContentType("text/html");
         PrintWriter writer = response.getWriter();

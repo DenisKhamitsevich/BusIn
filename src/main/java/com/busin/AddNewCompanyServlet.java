@@ -18,7 +18,8 @@ import javax.servlet.annotation.*;
 @WebServlet(name = "AddNewCompanyServlet", value = "/addnewcompany-servlet")
 public class AddNewCompanyServlet extends HttpServlet {
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) {}
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         response.setContentType("text/html");
         PrintWriter writer = response.getWriter();

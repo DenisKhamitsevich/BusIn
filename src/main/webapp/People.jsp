@@ -64,7 +64,7 @@
 
         </div>
 
-        <form action="addnewpeople-servlet">
+        <form method="post" action="addnewpeople-servlet">
             <input type="text" name="name" placeholder="  ФИО" class="new_item_input" id="new_item_name_input" pattern=".{1,45}" required>
             <input type="text" name="company" placeholder="  Компания" class="new_item_input" >
             <input type="text" name="phone" placeholder="  Телефон" class="new_item_input">
