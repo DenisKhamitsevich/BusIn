@@ -7,7 +7,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
-@WebServlet(name = "supportServlet", value = "/support-servlet")
+@WebServlet(displayName = "supportServlet", value = "/support-servlet")
 public class SupportServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) {}

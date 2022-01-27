@@ -16,7 +16,6 @@ import javax.servlet.annotation.*;
 @WebServlet(name = "SighInServlet", value = "/signin-servlet")
 public class SignInServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) {}
-
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         response.setContentType("text/html");

@@ -21,7 +21,6 @@ public class AddNewCompanyServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) {}
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        response.setContentType("text/html");
         PrintWriter writer = response.getWriter();
         HttpSession session = request.getSession();
         try{
