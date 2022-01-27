@@ -8,7 +8,6 @@ const sign_up_button = document.getElementById("sign_up_button_value");
 
 
 
-
 //2 section
 email.addEventListener("input", function (event) {
     if (email.validity.typeMismatch) {

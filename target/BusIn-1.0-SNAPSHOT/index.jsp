@@ -17,20 +17,20 @@
 
     <form action="signinbutton-servlet" ><input type="submit" value="Войти" class="sign_in_button"></form>
 </header>
-<section class="mid_section">
-    <p class="mid_section_header">Бесплатная CRM система для каждого</p>
-    <p class="mid_section_paragraph">Вы - небольшая компания и хотите улучшить взаимоотношения с клиентами? Тогда BusIn - идельный выбор! </p>
+<section class="about_us">
+    <p class="about_us_header">Бесплатная CRM система для каждого</p>
+    <p class="about_us_paragraph">Вы - небольшая компания и хотите улучшить взаимоотношения с клиентами? Тогда BusIn - идельный выбор! </p>
 </section>
 <section class="why_busin_section">
     <h2 class="why_busin_header" id="about_us_link">Почему BusIn?</h2>
-    <div class="middle_display">
+    <div class="flex_display">
         <p class="why_busin_paragraph">Потому что BusIn разработан специально для малого бизнеса, из-за чего почти все наши сервисы абсолютно бесплатны! А если вы хотите получить доступ ко всем функциям, то вы можете приобрести подписку.</p>
         <img src="./styles/assets/pictures/way_up.jpg" alt="null" class="why_busin_image">
     </div>
 </section>
 <section class="features_section">
     <h2 class="features_header" id="features_link">Дополнительные возможности:</h2>
-    <div class="middle_display">
+    <div class="flex_display">
         <img src="./styles/assets/pictures/market.jpg" alt="null" class="features_image">
         <ul class="list_of_features">
             <li>
