@@ -1,0 +1,116 @@
+body {
+    width: 100%;
+    font-family: Comic_Sans_MS;
+    src: url(./assets/fonts/Comic_Sans_MS.ttf);
+}
+
+@font-face {
+    font-family: Comic_Sans_MS;
+    src: url(./assets/fonts/Comic_Sans_MS.ttf);
+}
+
+.h1_in {
+    color: orange;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 35px;
+    margin-left: 250px;
+}
+
+header {
+    display: flex;
+}
+
+.account_paragraph {
+    font-size: 20px;
+    margin: 30px 0px 0px 800px;
+    color: gray;
+    content: '&pound';
+}
+
+.sign_in {
+    text-decoration: none;
+    color: blue;
+}
+.sign_in:hover{
+    color:orange;
+}
+
+.middle_section {
+    display: flex;
+}
+
+.create_paragraph {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.651);
+}
+
+.registration_section {
+    margin-left: 500px;
+    width: 600px;
+}
+
+.input_data {
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid blue;
+    font-size: 25px;
+    outline: none;
+    padding-top: 40px;
+    margin-left: 80px;
+}
+
+.sign_up_button {
+    width: 320px;
+    font-size: 30px;
+    margin: 60px 0px 0px 80px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+.sign_up_button:active {
+    transform: translateY(4px);
+}
+.sign_up_button:hover{
+    opacity: 0.7;
+}
+
+.invalid {
+    color: red;
+}
+
+#invalid_password_message {
+    display: none;
+    font-size: 25px;
+    margin-left: 90px;
+}
+
+.valid {
+    color: green;
+}
+
+.invalid {
+    color: red;
+}
+
+.password_must_contain {
+    color: black;
+}
+
+#invalid_upper {
+    margin-bottom: 0px;
+}
+
+.right_set {
+    display: none;
+}
+
+.wrong_set {
+    display: inline;
+}

@@ -1,0 +1,203 @@
+header {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+@font-face {
+    font-family: Comic_Sans_MS;
+    src: url(./assets/fonts/Comic_Sans_MS.ttf);
+}
+
+body {
+    width: 100%;
+    font-family: Comic_Sans_MS;
+    src: url(./assets/fonts/Comic_Sans_MS.ttf);
+    min-width: 1000px;
+}
+
+h1 {
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+.h1_in {
+    color: orange;
+    font-style: italic;
+}
+
+.nav_links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav_button:hover {
+    color: blue;
+}
+
+.sign_in_button {
+    font-family: Comic_Sans_MS;
+    src: url(./assets/fonts/Comic_Sans_MS.ttf);
+    margin-top: 20px;
+    margin-left: 300px;
+    width:100px;
+    font-size: 25px;
+    height: 50px;
+    padding: 10px;
+    background-color: orange;
+    border-radius: 25px;
+    color: white;
+    border: none;
+}
+
+.sign_in_button:hover {
+    opacity: 0.5;
+}
+
+.sign_in_button:active {
+    transform: translateY(4px);
+}
+
+.mid_section {
+    background: url(./assets/pictures/bus.jpg) no-repeat;
+    background-size: cover;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.mid_section_header {
+    margin: 0px 850px 0px 50px;
+    padding-top: 50px;
+    font-style: italic;
+}
+
+.mid_section_paragraph {
+    font-size: 35px;
+    font-weight: normal;
+    font-style: normal;
+    margin: 120px 950px 0px 50px;
+    padding-bottom: 65px;
+    diplay:flex;
+}
+
+.why_busin_header {
+    font-size: 50px;
+    font-style: italic;
+    margin-left: 600px;
+}
+
+.middle_display {
+    display: flex;
+}
+
+.why_busin_image {
+    height: 400px;
+    width: 600px;
+    margin-right: 50px;
+    border-radius: 50%;
+}
+
+.why_busin_paragraph {
+    font-size: 30px;
+    margin: 50px 150px 0px 70px;
+    line-height: 170%;
+}
+
+.features_section {
+    margin-top: 50px;
+    border-top: 1px solid black;
+}
+
+.features_header {
+    color: black;
+    font-size: 50px;
+    font-style: italic;
+    padding: 10px 0px 50px 25%;
+    width: 55%;
+}
+
+.list_of_features {
+    list-style-image: url(./assets/pictures/gal.png);
+    margin-left: 20%;
+    text-align: left;
+}
+
+.premium_feature {
+    color: black;
+    font-size: 22px;
+    margin-top: 0px;
+    position: relative;
+    top: -15px;
+}
+
+.features_image {
+    width: 40%;
+    height: 400px;
+    border-radius: 40%;
+}
+
+.support_section {
+    height: 700px;
+    font-size: 50px;
+    color: black;
+    background: url(./assets/pictures/support.png) no-repeat;
+    background-size: cover;
+}
+
+.support_header {
+    padding-left: 37%;
+    padding-top: 50px;
+    font-size: 40px;
+    font-style: italic;
+    width: 500px;
+}
+
+
+.email_data {
+    margin:0% 0% 0% 42%;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.problem_data {
+
+    margin:2% 0% 0% 30%;
+    height: 300px;
+    width: 670px;
+    text-align: left;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+.submit_button {
+
+    margin:0% 0% 0% 45%;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.submit_button:active {
+    transform: translateY(4px);
+}
+
+footer{
+    background-color: #e3e3e3;
+    font-size: 15px;
+    display:flex;
+}
+.footer_busin{
+    margin-left:47%;
+}

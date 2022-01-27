@@ -1,0 +1,532 @@
+body {
+    width: 100%;
+
+    font-family: Comic_Sans_MS;
+    src: url(./assets/fonts/Comic_Sans_MS.ttf);
+
+}
+
+@font-face {
+    font-family: Comic_Sans_MS;
+    src: url(./assets/fonts/Comic_Sans_MS.ttf);
+}
+
+h1 {
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+.h1_in {
+    color: orange;
+    font-style: italic;
+}
+
+header {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.username_button {
+    border: none;
+    outline: none;
+    background-color: white;
+    font-size: 25px;
+    margin-left: 1100px;
+}
+
+.username_button:hover {
+    opacity: 0.5;
+}
+
+.middle_section {
+    display: flex;
+
+}
+
+.navigation {
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 225px;
+    height: auto;
+    min-height: 700px;
+
+}
+
+.navigation_button {
+    color: orange;
+    width: 225px;
+    text-align: left;
+    font-size: 17px;
+    padding: 25px 15px 25px 15px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    border-top: 1px solid gray;
+    background: transparent;
+    height: 79px;
+}
+
+.navigation_button:hover {
+    background-color: rgba(0, 0, 0, 0.596);
+}
+
+.value_section {
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    width: 100%;
+    height: 800px;
+}
+
+
+
+.review{
+    margin-top:6%;
+    border-top:1px solid gray;
+}
+
+.review_time{
+    font-size: 28px;
+    margin:5% 0% 0% 30%;
+}
+
+.review_paragraph {
+    border-bottom: 1px solid gray;
+
+    font-size: 25px;
+    padding:5px 0% 5px 40%;
+
+}
+
+.review_summary {
+    display: flex;
+    justify-content: space-between;
+}
+
+.amount_of {
+    color: orange;
+}
+
+.summary {
+    border: 1px solid gray;
+    font-size: 20px;
+    padding: 20px;
+    margin:40px 50px 0px 28px;
+}
+
+.summary_companies_h {
+    color: orange;
+    padding-left: 35%;
+    padding-right: 5%;
+}
+
+.summary_faces_h {
+    color: orange;
+    padding-left: 20%;
+    padding-right: 5%;
+}
+
+.summary_sales_h {
+    color: orange;
+    padding-left: 40%;
+    padding-right: 5%;
+}
+
+
+#rollup_button {
+    margin-top: 110px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 100px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    left: 8px;
+}
+
+.new_company_button {
+    background-color: gray;
+    color: orange;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 50px;
+}
+
+.new_company_button:hover {
+    background-color: black;
+}
+
+.company_table_header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    font-size: 20px;
+    border-bottom: 1px solid gray;
+}
+#no_hover:hover{
+    background-color: white;
+}
+
+.company_table_string {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .5);
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.new_company_window {
+    display: none;
+    position: fixed;
+    top: 80px;
+    left: 500px;
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.new_company_paragraph {
+    border-bottom: 1px solid rgba(180, 174, 174, 0.925);
+    padding-left: 150px;
+    display: flex;
+    font-size: 21px;
+}
+
+.close_window {
+    outline: none;
+    border: none;
+    background-color: white;
+}
+
+#sales_paragraph {
+    padding-left: 165px;
+}
+
+#close_company_window {
+    margin-left: 100px;
+    margin-top: 2px;
+    padding: 0px;
+}
+
+#close_people_window {
+    margin-left: 60px;
+    margin-top: 5px;
+    padding: 0px;
+}
+
+#close_deals_window {
+    margin-left: 115px;
+    padding: 0px;
+    margin-top:5px;
+}
+
+#close_help_window {
+    padding-left: 170px;
+}
+
+#help_paragraph {
+    padding-left: 40px;
+}
+
+.close_window:hover {
+    opacity: 0.5;
+}
+
+.new_company_input {
+    border: 1px solid blue;
+    outline: none;
+    font-size: 20px;
+    border-radius: 15px;
+    height: 30px;
+    width: 250px;
+    margin: 40px 0px 0px 130px;
+}
+
+#save_new_company_button {
+    margin: 70px 0px 0px 190px;
+}
+
+#save_new_sale_button {
+    margin: 70px 0px 0px 190px;
+}
+
+#save_new_face_button {
+    margin: 70px 0px 0px 190px;
+}
+
+.company_item {
+    width: 190px;
+    margin-right: 50px;
+    overflow: hidden;
+    height: 70px;
+}
+.company_table_header:hover{
+    background-color: rgb(236, 231, 231);
+
+}
+
+.company_item_phone {
+    width: 190px;
+    margin-right: 50px;
+    overflow: hidden;
+}
+
+.company_item_address {
+    width: 180px;
+    margin-right: 50px;
+    overflow: hidden;
+}
+
+.company_item_location {
+    width: 190px;
+    margin-right: 40px;
+    overflow: hidden;
+}
+
+.faces {
+    display: none;
+}
+
+.sales {
+    display: none;
+}
+
+.settings {
+    display: none;
+}
+
+.help_window {
+    display: none;
+}
+
+.help {
+    display: block;
+}
+
+.new_help_textarea {
+    border: 1px solid gray;
+    outline: none;
+    font-size: 20px;
+    border-radius: 15px;
+    height: 280px;
+    width: 380px;
+    margin: 40px 0px 0px 60px;
+}
+
+#save_help_button {
+    margin-left: 190px;
+}
+
+.profile_paragraph {
+    font-size: 30px;
+    margin-left: 550px;
+    margin-top: 50px;
+    font-style: italic;
+}
+
+.flex {
+    display: flex;
+}
+
+.settings_paragraph_mail {
+    margin: 20px 0px 0px 275px;
+    font-size: 25px;
+}
+
+.settings_paragraph_name {
+    margin: 20px 0px 0px 450px;
+    font-size: 25px;
+}
+
+.settings_paragraph_surname {
+    margin: 20px 0px 0px 393px;
+    font-size: 25px;
+}
+
+.settings_paragraph_password {
+    margin: 20px 0px 0px 349px;
+    font-size: 25px;
+}
+
+.settings_paragraph_password_old {
+    margin: 20px 0px 0px 340px;
+    font-size: 25px;
+}
+
+.settings_input {
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid blue;
+}
+
+#save_account_changes {
+    margin: 50px 0px 0px 505px;
+}
+
+#save_password_changes {
+    margin: 50px 0px 0px 505px;
+}
+#faces_paragraph{
+    padding-left:130px;
+}
+.tape_paragraph{
+    font-size: 20px;
+    padding-left: 39%;
+    margin-top: 80px;
+}
+.tape_value{
+    border:1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    padding:20px 50px 20px 50px;
+    margin-bottom: 5px;
+}
+.tape_value_type{
+    color:orange;
+    width:150px;
+}
+.tape_value_name{
+    margin-left:110px;
+    width:300px;
+    overflow: hidden;
+}
+.tape_value_data{
+    margin-left:50px;
+    width:200px;
+    font-size:15px;
+}
+.tape_value:hover{
+    background-color: rgb(236, 231, 231);
+}
+
+.company_value{
+    border-bottom:1px solid gray;
+    width:100%;
+}
+.delete_company{
+    margin-right: 20px;
+    height: 35px;
+    width: 35px;
+    background-color: gray;
+    color: orange;
+}
+.delete_company:hover {
+    background-color: rgba(0, 0, 0, 0.596);
+}
+#company_location{
+    margin-right: 100px;
+}
+#new_people_paragraph{
+    padding-left: 120px;
+}
+#new_deals_paragraph{
+    padding-left: 165px;
+}
+.submit_button{
+    background-color: gray;
+    color:orange;
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: none;
+    margin:5% 0% 0% 40%;
+}
+.submit_button:hover {
+    background-color: rgba(0, 0, 0, 0.596);
+}
+.value_field{
+    margin:5% 40% 0% 38%;
+    width:150px;
+    font-size: 20px;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid blue;
+    text-align: center;
+    overflow: hidden;
+}
+.support{
+    width: 100%;
+}
+.problem_data{
+    margin:5% 30% 0% 20%;
+    width:620px;
+    height: 300px;
+    font-size: 20px;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid blue;
+    overflow: hidden;
+}
+.settings_item{
+    margin:2% 40% 0% 35%;
+    width:250px;
+    height: 40px;
+    font-size: 22px;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid blue;
+    text-align: center;
+    overflow: hidden;
+}
+#save_new_name{
+    margin-top:3%;
+}
+#change_password{
+    margin-top:3%;
+}
+.invalid {
+    color: red;
+}
+
+#invalid_password_message {
+    display: none;
+    font-size: 25px;
+    margin-left: 90px;
+}
+
+.valid {
+    color: green;
+    margin-left: 28%;
+}
+
+.invalid {
+    color: red;
+    margin-left: 28%;
+}
+
+.password_must_contain {
+    color: black;
+    margin-left:28%;
+}
+
+#invalid_upper {
+    margin-bottom: 0px;
+}
+
+.right_set {
+    display: none;
+}
+
+.wrong_set {
+    display: inline;
+}
+.change_password_paragraph{
+    font-size: 25px;
+    margin:5% 0% 0% 37%;
+}
+
+

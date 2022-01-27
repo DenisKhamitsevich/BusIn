@@ -1,0 +1,43 @@
+body {
+    width: 70%;
+    margin-left: 20%;
+    font-family: Comic_Sans_MS;
+    src: url(./assets/fonts/Comic_Sans_MS.ttf);
+}
+
+@font-face {
+    font-family: Comic_Sans_MS;
+    src: url(./assets/fonts/Comic_Sans_MS.ttf);
+}
+
+.h1_in {
+    color: orange;
+    font-style: italic;
+}
+
+h1 {
+    margin: 100px 0px 0px 350px;
+    font-size: 60px;
+}
+.returnButton {
+    width: 200px;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 50px 0% 0% 30%;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+.returnButton:active {
+    transform: translateY(4px);
+}
+.returnButton:hover{
+    opacity:0.7;
+}
+.support_paragraph{
+    font-size: 28px;
+    margin:5% 10% 0% 0%;
+}
