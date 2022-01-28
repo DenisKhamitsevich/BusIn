@@ -13,11 +13,8 @@ public class SupportServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) {}
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 
-        String path = "/SupportPage.html";
-
-        ServletContext servletContext = getServletContext();
-        RequestDispatcher requestDispatcher = servletContext.getRequestDispatcher(path);
-        requestDispatcher.forward(request, response);
+        String path = "./SupportPage.html";
+        response.sendRedirect(path);
     }
 
     public void destroy() {

@@ -79,7 +79,7 @@
 </div>
 </div>
 <script type="text/javascript">
-    <%@include file="AddNewDeals.js"%>
+    <%@include file="scripts/AddNewDeals.js"%>
 </script>
 </body>
 </html>

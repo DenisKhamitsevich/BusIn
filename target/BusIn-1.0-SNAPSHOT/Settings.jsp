@@ -50,7 +50,7 @@
 </div>
 </div>
 <script type="text/javascript">
-    <%@include file="Settings.js"%>
+    <%@include file="scripts/Settings.js"%>
 </script>
 </body>
 </html>

@@ -80,7 +80,7 @@
 </div>
 </div>
 <script type="text/javascript">
-    <%@include file="AddNewPeople.js"%>
+    <%@include file="scripts/AddNewPeople.js"%>
 </script>
 </body>
 </html>

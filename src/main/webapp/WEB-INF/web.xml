@@ -12,9 +12,27 @@
             <param-value>UTF-8</param-value>
         </init-param>
     </filter>
+    <filter>
+        <filter-name>LoginFilter</filter-name>
+        <filter-class>com.busin.LoginFilter</filter-class>
+    </filter>
+
+
+
+
 
     <filter-mapping>
         <filter-name>CharsetFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
+    <filter-mapping>
+        <filter-name>LoginFilter</filter-name>
+        <url-pattern>/MainPage.jsp</url-pattern>
+        <url-pattern>/Companies.jsp</url-pattern>
+        <url-pattern>/People.jsp</url-pattern>
+        <url-pattern>/Deals.jsp</url-pattern>
+        <url-pattern>/Settings.jsp</url-pattern>
+        <url-pattern>/SupportItemPage.jsp</url-pattern>
+    </filter-mapping>
+
 </web-app>

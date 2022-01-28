@@ -24,7 +24,7 @@
         <div class="review_paragraph">
             <p>Помощь</p>
     </div>
-        <form action="support-servlet">
+        <form method="post" action="support-servlet">
             <input name="email" type="email" value="${email}" class="value_field" disabled>
             <textarea name="SupportProblem" cols="30" rows="10" class="problem_data" placeholder="С чем Вам нужна помощь?" required></textarea>
             <input type="submit" value="Отправить" class="submit_button" >

@@ -11,7 +11,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
-@WebServlet(name = "MainPageServlet", value = "/mainpage-servlet")
+@WebServlet(name = "MainPageServlet", value = {"/mainpage-servlet"})
 public class MainPageServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -19,6 +19,11 @@ public class MainPageServlet extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter writer = response.getWriter();
         HttpSession session = request.getSession();
+        if(session.getAttribute("email")==null)
+        {
+            response.sendRedirect("./AuthorizationError.html");
+        }
+
         try{
             String url = "jdbc:mysql://localhost/usersdb?serverTimezone=Europe/Moscow&useSSL=false";
             String username = "root";
